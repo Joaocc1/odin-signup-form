@@ -7,6 +7,83 @@
         <title>Sign-Up Form</title>
     </head>
     <body>
-        <h1>Welcome</h1>
+        <div class="form-container">
+            <!-- Banner -->
+            <div class="banner">
+                <div class="logo">
+                    <img src="./images/odin-lined.png" alt="" />
+                    <h1>Odin</h1>
+                </div>
+                <p>
+                    Photo by <span>Halie West</span> on
+                    <a href="https://unsplash.com/">Unsplash</a>
+                </p>
+            </div>
+
+            <!-- Form -->
+            <form action="">
+                <p>
+                    This is not a real online service! You know you need
+                    something like this in your life to help you realize your
+                    deepest dreams. Sign up now to get started.
+                </p>
+                <p>You know you want to.</p>
+
+                <div class="register-info">
+                    <h2>Let's do this!</h2>
+
+                    <p class="input">
+                        <label for="fname">FIRST NAME</label>
+                        <input
+                            type="text"
+                            name="fname"
+                            id="fname"
+                            placeholder="Thor"
+                            required
+                        />
+                    </p>
+                    <p class="input">
+                        <label for="lname">LAST NAME</label>
+                        <input
+                            type="text"
+                            name="lname"
+                            id="lname"
+                            placeholder="Odinson"
+                            required
+                        />
+                    </p>
+                    <p class="input">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required />
+                    </p>
+                    <p class="input">
+                        <label for="phone">PHONE</label>
+                        <input type="tel" name="phone" id="phone" required />
+                    </p>
+                    <p class="input">
+                        <label for="password">PASSWORD</label>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            required
+                        />
+                    </p>
+                    <p class="input">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input
+                            type="password"
+                            name="confirm_password"
+                            id="confirm_password"
+                            required
+                        />
+                    </p>
+                </div>
+
+                <button type="submit">Create Account</button>
+
+                <p>Already have an account? <a href="">Log in</a></p>
+            </form>
+        </div>
     </body>
 </html>
