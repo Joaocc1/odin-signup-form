@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.form-container {
+    display: flex;
+    height: 100vh;
+}
+
+.banner {
+    background-color: green;
+    background-image: url(/images/bg-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    flex: 1;
+    /*max-width: 150px;*/
+}
+
+form {
+    flex: 2;
+    /*max-width: 250px;*/
+}
