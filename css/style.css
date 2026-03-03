@@ -10,13 +10,27 @@
 }
 
 .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: green;
     background-image: url(/images/bg-img.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     flex: 1;
+    color: #ffffff;
     /*max-width: 150px;*/
+}
+
+.logo {
+    display: flex;
+    background-color: hsla(0, 0%, 0%, 50%);
+    margin-top: 200px;
+}
+
+.logo img {
+    height: 100px;
 }
 
 form {
