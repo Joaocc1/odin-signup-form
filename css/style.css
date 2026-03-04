@@ -1,3 +1,17 @@
+:root {
+  --fs-medium: 1rem;
+  --fs-small: 0.5rem;
+  --fs-large: 1.5rem;
+  --fs-xlarge: 3rem;
+
+  --clr-primary: #f9fafb;
+  --clr-secondary: #596d48;
+  --clr-tertiary: #1f1f20;
+  --clr-white: #ffffff;
+  --clr-error: #c74949;
+  --clr-checked: #2151d9;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -13,7 +27,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: green;
+  background-color: var(--clr-secondary);
   background-image: url(../images/bg-img.jpg);
   background-size: cover;
   background-position: center center;
@@ -33,7 +47,7 @@
 
 .logo {
   display: flex;
-  background-color: hsla(0, 0%, 0%, 50%);
+  background-color: hsla(240, 2%, 12%, 50%);
   height: fit-content;
   min-width: 100%;
 }
