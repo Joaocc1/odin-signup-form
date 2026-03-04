@@ -1,8 +1,13 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url(../fonts/Norse-Bold.woff2) format("woff2");
+}
+
 :root {
   --fs-medium: 1rem;
   --fs-small: 0.75rem;
   --fs-large: 1.5rem;
-  --fs-xlarge: 3rem;
+  --fs-xlarge: 2.5rem;
 
   --clr-primary: #f9fafb;
   --clr-secondary: #596d48;
@@ -53,9 +58,12 @@ body {
 
 .logo {
   display: flex;
+  justify-content: center;
   background-color: hsla(240, 2%, 12%, 50%);
   height: fit-content;
   min-width: 100%;
+  font-family: "Norse Bold";
+  font-size: var(--fs-xlarge);
 }
 
 .logo img {
