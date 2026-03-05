@@ -1,89 +1,92 @@
 @font-face {
-  font-family: "Norse Bold";
-  src: url(../fonts/Norse-Bold.woff2) format("woff2");
+    font-family: "Norse Bold";
+    src: url(../fonts/Norse-Bold.woff2) format("woff2");
 }
 
 :root {
-  --fs-medium: 1rem;
-  --fs-small: 0.75rem;
-  --fs-large: 1.5rem;
-  --fs-xlarge: 2.5rem;
+    --fs-medium: 1rem;
+    --fs-small: 0.75rem;
+    --fs-large: 1.5rem;
+    --fs-xlarge: 2.5rem;
 
-  --clr-primary: #f9fafb;
-  --clr-secondary: #596d48;
-  --clr-tertiary: #1f1f20;
-  --clr-white: #ffffff;
-  --clr-error: #c74949;
-  --clr-checked: #2151d9;
+    --clr-primary: #f9fafb;
+    --clr-secondary: #596d48;
+    --clr-tertiary: #1f1f20;
+    --clr-white: #ffffff;
+    --clr-error: #c74949;
+    --clr-checked: #2151d9;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  font-family:
-    system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family:
+        system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .form-container {
-  display: flex;
-  height: 100vh;
+    display: flex;
+    height: 100vh;
 }
 
 .banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: var(--clr-secondary);
-  background-image: url(../images/bg-img.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  flex: 1;
-  height: 100%;
-  color: var(--clr-white);
-  /*max-width: 150px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--clr-secondary);
+    background-image: url(../images/bg-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    flex: 1;
+    height: 100%;
+    color: var(--clr-white);
+    /*max-width: 150px;*/
 }
 
 .logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
 }
 
 .logo {
-  display: flex;
-  justify-content: center;
-  background-color: hsla(240, 2%, 12%, 50%);
-  height: fit-content;
-  min-width: 100%;
-  font-family: "Norse Bold";
-  font-size: var(--fs-xlarge);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(240, 2%, 12%, 50%);
+    height: fit-content;
+    min-width: 100%;
+    padding: 0.5rem;
+    font-family: "Norse Bold";
+    font-size: var(--fs-xlarge);
 }
 
 .logo img {
-  height: 100px;
+    height: 100px;
 }
 
 .credit {
-  display: flex;
-  align-items: flex-end;
-  height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 30%;
 }
 
 .credit p {
-  margin: 0 auto;
-  font-size: var(--fs-small);
-  text-align: center;
-  width: fit-content;
+    margin: 0.5rem;
+    font-size: var(--fs-small);
+    text-align: center;
+    width: fit-content;
 }
 
 form {
-  flex: 2;
-  /*max-width: 250px;*/
+    flex: 2;
+    /*max-width: 250px;*/
 }
