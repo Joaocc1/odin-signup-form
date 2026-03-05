@@ -29,6 +29,11 @@ body {
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+a:link,
+a:visited {
+    color: inherit;
+}
+
 .form-container {
     display: flex;
     height: 100vh;
