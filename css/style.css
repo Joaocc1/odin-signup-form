@@ -99,6 +99,10 @@ form {
     background-color: var(--clr-primary);
 }
 
+.form-header {
+    padding: 7rem 2.5rem 1rem 2.5rem;
+}
+
 .register-info {
     background-color: var(--clr-white);
     padding: 1rem 2.5rem;
@@ -120,4 +124,12 @@ form {
     display: flex;
     flex-direction: column;
     flex: 1 1 200px;
+}
+
+.submit {
+    padding: 1rem 2.5rem;
+}
+
+.login {
+    padding: 1rem 2.5rem;
 }
