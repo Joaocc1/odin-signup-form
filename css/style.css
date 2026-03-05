@@ -92,6 +92,18 @@ a:visited {
 }
 
 form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     flex: 2;
-    /*max-width: 250px;*/
+    background-color: var(--clr-primary);
+}
+
+.register-info {
+    background-color: var(--clr-white);
+    padding: 1rem 2rem;
+}
+
+.input {
+    padding-block: 1rem;
 }
