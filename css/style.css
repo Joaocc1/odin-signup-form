@@ -52,7 +52,6 @@ a:visited {
     flex: 1;
     height: 100vh;
     color: var(--clr-white);
-    /*max-width: 150px;*/
 }
 
 .logo-container {
@@ -114,6 +113,7 @@ form {
 .register-info {
     background-color: var(--clr-white);
     padding: 1rem 2.5rem;
+    box-shadow: 0 15px 15px -22px var(--clr-tertiary);
 }
 
 .register-info > h2 {
@@ -138,7 +138,7 @@ form {
 }
 
 .submit {
-    padding: 1rem 2.5rem;
+    padding: 3rem 2.5rem 1rem 2.5rem;
 }
 
 .login {
