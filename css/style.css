@@ -12,6 +12,7 @@
     --clr-primary: #f9fafb;
     --clr-secondary: #596d48;
     --clr-tertiary: #1f1f20;
+    --clr-alt: #1f2937;
     --clr-white: #ffffff;
     --clr-error: #c74949;
     --clr-checked: #2151d9;
@@ -49,7 +50,7 @@ a:visited {
     background-position: center center;
     background-repeat: no-repeat;
     flex: 1;
-    height: 100%;
+    height: 100vh;
     color: var(--clr-white);
     /*max-width: 150px;*/
 }
@@ -97,6 +98,7 @@ form {
     gap: 2rem;
     flex: 2;
     background-color: var(--clr-primary);
+    color: var(--clr-tertiary);
 }
 
 .form-header {
@@ -110,6 +112,8 @@ form {
 
 .register-info > h2 {
     padding-bottom: 2rem;
+    color: var(--clr-alt);
+    font-size: var(--fs-large);
 }
 
 .form-inputs {
