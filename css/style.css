@@ -141,7 +141,7 @@ form {
     margin-top: 0.15rem;
     padding: 0.25rem 0.5rem;
     outline: none;
-    border: 2px solid #eaebee;
+    border: 2px solid #e5e7eb;
     border-radius: 5px;
     color: var(--clr-tertiary);
     font-size: var(--fs-medium);
