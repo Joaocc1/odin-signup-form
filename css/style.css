@@ -140,9 +140,10 @@ form {
 .input > input {
     margin-top: 0.15rem;
     padding: 0.25rem 0.5rem;
-    outline: 0;
+    outline: none;
     border: 2px solid #eaebee;
     border-radius: 5px;
+    color: var(--clr-tertiary);
     font-size: var(--fs-medium);
 
     &:focus {
@@ -155,6 +156,25 @@ form {
     padding: 3rem 2.5rem 1rem 2.5rem;
 }
 
+.btn-submit {
+    background-color: var(--clr-secondary);
+    color: var(--clr-white);
+    padding: 0.75rem 3rem;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -10px var(--clr-tertiary);
+    font-size: var(--fs-medium);
+    font-weight: 700;
+}
+
 .login {
     padding: 1rem 2.5rem;
+}
+
+.login a:link,
+.login a:visited {
+    color: var(--clr-secondary);
+    font-weight: 700;
+    text-decoration: none;
 }
