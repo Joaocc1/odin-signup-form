@@ -6,4 +6,4 @@ This small project is basically just recreating the ui of a signup form, and enf
 
 ## Demo
 
-🔗 [Live Demo](https://github.com/Joaocc1/odin-signup-form/deployments/github-pages)
+🔗 [Live Demo](https://joaocc1.github.io/odin-signup-form/)
