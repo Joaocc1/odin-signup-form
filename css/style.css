@@ -150,6 +150,10 @@ form {
         border: 2px solid royalblue;
         box-shadow: 5px 5px 15px -10px var(--clr-tertiary);
     }
+
+    &:user-invalid {
+        border: 2px solid red;
+    }
 }
 
 .submit {
