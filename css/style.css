@@ -112,7 +112,7 @@ form {
 
 .register-info {
     background-color: var(--clr-white);
-    padding: 1rem 2.5rem;
+    padding: 1rem 2.5rem 3rem 2.5rem;
     box-shadow: 0 15px 15px -22px var(--clr-tertiary);
 }
 
@@ -135,6 +135,20 @@ form {
     display: flex;
     flex-direction: column;
     flex: 1 1 200px;
+}
+
+.input > input {
+    margin-top: 0.15rem;
+    padding: 0.25rem 0.5rem;
+    outline: 0;
+    border: 2px solid #eaebee;
+    border-radius: 5px;
+    font-size: var(--fs-medium);
+
+    &:focus {
+        border: 2px solid royalblue;
+        box-shadow: 5px 5px 15px -10px var(--clr-tertiary);
+    }
 }
 
 .submit {
